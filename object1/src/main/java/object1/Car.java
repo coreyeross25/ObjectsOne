@@ -1,10 +1,10 @@
 package main.java.object1;
 
 public class Car {
-    private String make;
-    private String model;
-    private int year;
-    private int mileage;
+    private String make = "Chrysler";
+    private String model = "200";
+    private int year = 2012;
+    private int mileage = 70000;
 
     public Car(String make, String model, int year, int mileage) {
         this.make = make;

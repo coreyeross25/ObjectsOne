@@ -1,9 +1,9 @@
 package main.java.object1;
 
 public class Dog {
-    private String name;
-    private int age;
-    private String breed;
+    private String name = "Tux";
+    private int age = 1;
+    private String breed = "Poodle";
 
     public Dog(String name, int age, String breed) {
         this.name = name;

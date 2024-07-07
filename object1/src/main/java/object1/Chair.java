@@ -1,9 +1,9 @@
 package main.java.object1;
 
 public class Chair {
-    private String material;
-    private String color;
-    private int legs;
+    private String material = "Wood";
+    private String color = "Brown";
+    private int legs = 4;
 
     public Chair(String material, String color, int legs) {
         this.material = material;
